@@ -5,7 +5,7 @@ html {
     width:50px;
     margin-top:5px;
   }
-  .heroImg{
+  .heroImg img{
     margin-top: 10px;
     margin-right: -20px;
     width:100% ;
@@ -21,7 +21,6 @@ html {
   }
   .nav-item{
     color:white;
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-size: 20px;
     font-weight: 500;
   }
@@ -61,12 +60,10 @@ html {
       
     }
     .pantry-header{
-      /* margin-top:1rem; */
       margin-bottom:1rem;
     }  
   .carouselrow{
     background-color: #000000;
-    /* background-color:#324656; */
     width:100%;
   }
 .carousel{
@@ -75,7 +72,8 @@ html {
 .carousel img{
   margin:0;
   padding:0;
-  margin-left:-20rem;
+  margin-left:0rem;
+  width:120%
 }
 .carousel-img{
   width:30%;
@@ -85,9 +83,8 @@ html {
 .carousel-text{
   width:70%;
   float:left;
-  /* padding-left:5rem; */
   color:white;
-
+padding-left:10rem;
 }
 .carousal-h4{
    margin-top:10%; 
@@ -129,3 +126,4 @@ ul{
     font-size:smaller;
     margin-top:3rem;
   }
+
