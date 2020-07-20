@@ -1,0 +1,36 @@
+
+.btn-primary {
+  color: #fff;
+  background-color: #3ED598;
+  border-color: #324656;
+}
+
+.navbar {
+  padding: .5rem 10%;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255,0.8);
+}
+.btn-login{
+  width:100px;
+  	border-radius: 24px;
+}
+.btn-learn{
+height:78px;
+width:160px;
+align-content:center;
+font-weight:600px;
+padding-top:20px;
+margin-right:5%;
+margin-top:-10%;
+}
+.btn-download{
+align-content:center;
+margin-right:5%;
+margin-top:-10%;
+
+}
+
+.btn-oval {
+	border-radius: 24px;
+}

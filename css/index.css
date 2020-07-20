@@ -1,0 +1,131 @@
+html {
+    scroll-behavior: smooth;
+  }
+  .logo img{
+    width:50px;
+    margin-top:5px;
+  }
+  .heroImg{
+    margin-top: 10px;
+    margin-right: -20px;
+    width:100% ;
+  }
+  header{
+    width: 100%;
+    background-color: #30444E;
+  }
+  .nav-links{
+    margin-left:50px;
+    margin-right:auto;
+    
+  }
+  .nav-item{
+    color:white;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .jumbotron{
+    background-color: #324656 !important; 
+  }
+  .display-4{
+    margin-top: 10%px;
+    margin-left:25%;
+  }
+  .lead{
+    margin-top: 5%;
+    margin-left:25%;
+  }
+  .display-4, .lead{
+    color:white;
+  }
+  .img-scrn{
+    margin-top:1rem;
+    margin-bottom:1rem;
+  }
+  .img-scrn img{
+    width:100%;
+
+  }
+  .img-title{
+    padding-top:0.5rem;
+    font-weight:bold;
+
+  }
+  .img-desc{
+    padding-top:0.5rem;
+  }
+
+  .pantry, .carouselrow{
+      padding:5rem;
+      
+    }
+    .pantry-header{
+      /* margin-top:1rem; */
+      margin-bottom:1rem;
+    }  
+  .carouselrow{
+    background-color: #000000;
+    /* background-color:#324656; */
+    width:100%;
+  }
+.carousel{
+  width:100%;
+}
+.carousel img{
+  margin:0;
+  padding:0;
+  margin-left:-20rem;
+}
+.carousel-img{
+  width:30%;
+  
+  
+}
+.carousel-text{
+  width:70%;
+  float:left;
+  /* padding-left:5rem; */
+  color:white;
+
+}
+.carousal-h4{
+   margin-top:10%; 
+}
+ul{
+  list-style-type:none;
+}
+  .small-btn-text {
+    font-size: 12px;
+  }
+
+  .button-icon {
+    padding-right: 12px;
+  }
+  .app-store-button {
+    flex-direction: row;
+    display: flex;
+    width: 124px;
+    align-items: center;
+}
+.content-title{
+  margin-top:5rem;
+  margin-bottom:3rem;
+}
+
+  .footer-social-link {
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    padding-left: 0;
+    margin-top:3rem;
+    margin-left:-5rem;
+  }
+  .social-icon{
+   width:50px;
+   padding:10px;
+  }
+  .copyright{
+    font-size:smaller;
+    margin-top:3rem;
+  }

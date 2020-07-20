@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SMART PANTRY- FINAL PROJECT</title>
+	<!-- CSS only -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+	 crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+   	<link rel="stylesheet" href="css/overwrite-bootstrap.css" />
+	<link rel="stylesheet" href="css/index.css" />
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+	 crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+	 crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+	 crossorigin="anonymous">
+	</script>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+			<a class="nav-brand logo">
+				<img src="images/logo.png" >
+            
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-links" >
+            <li class= "nav-item">
+              <a class="nav-link" href="#planning">PLANNING</a>
+            </li>
+            <li class= "nav-item">
+              <a class="nav-link" href="#Recipes">RECIPES</a>
+            </li>
+            <li class= "nav-item">
+              <a class="nav-link" href="#storage">STORAGE</a>
+            </li>
+            <li class= "nav-item">
+              <a class="nav-link" href="#Contact">CONTACT</a>
+            </li>
+          </ul>
+          <button type="button" class=" btn-login btn btn-primary">
+            LOGIN
+          </button>
+          </div>
+        </nav>    
+      </header>
+      <div class="jumbotron">
+        <div class="row">
+        <div class="col-md-6">
+        <h1 class="display-4">The Ultimate Grocery Planner!</h1>
+        <p class="lead">Plan your grocery lists and check inventory smartly in just minutes!<br>
+           Get alerts/notifications on expiring items.<br>Save time and money using SmartPantry services !.</p>
+           <!-- <img src= "images/hero.png"> -->
+           </div>
+           <div class="col-md-6 heroImg">
+              <img src= "images/hero.png">
+             </div>
+            </div><!--row end-->
+        <hr class="my-4">
+        <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
+        <p class="lead">
+          <a class="btn-learn btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+          <a class=" btn-download btn btn-primary btn-lg" href="#" role="button">
+            <span class="app-store-button">
+              <!-- <div><img class="button-icon" src ="./images/apple.png"></div> -->
+              <i class="fa fa-apple button-icon" aria-hidden="true"></i>
+              <span>
+              <span class="clearfix small-btn-text ">Download on the</span> 
+              <span>APP Store</span>
+              </span>
+            </span>
+          </a>
+        </p>
+      </div>
+      <!--Pantry-->
+      <div class="container pantry">
+        <div class="pantry-header row">
+          <div class="pantry-header col-md-12">
+          <h1>Why Choose Smart Pantry?</h1>
+          </div>
+        </div>
+        <div class=" img-scrn row">
+          <div class="col-md-4">
+            <!-- <img src="images/Img1.png"> -->
+             <img src="Final_Images/Inventory.png">
+            <div class="img-title">
+              Grocery Lists
+            </div>
+            <div class="img-desc">
+              Create custom lists, aisles, categories and more!
+            </div>
+            
+          </div>
+          <div class="col-md-4">
+             <!-- <img src="images/Img1.png"> -->
+            <img src="Final_Images/recipes.png">
+            <div class="img-title">
+              Recipe Importer
+            </div>
+            <div class="img-desc">
+              Instantly import recipes, images and instructions for later use.
+            </div>
+          </div>
+          <div class="col-md-4">
+             <!-- <img src="images/Img1.png"> -->
+            <img src="Final_Images/cooking.png">
+            <div class="img-title">
+              Inventory Management
+            </div>
+            <div class="img-desc">
+              Track all the essential ingredients inventory in your kitchen! 
+            </div>
+          </div>
+        </div>   
+    </div>
+    <br>
+        <div class="row carouselrow">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="2000">
+                  <div class="container">
+                    <div class="row">
+                      <div class="carousel-img">
+                          <img  src="Final_Images/samrtpantry.png" alt="First slide">
+                      </div>
+                       <div class="carousel-text">
+                         <h1>TRY THE SMART-PANTRY</h1>
+                         <h4 class="carousal-h4">Overview</h4>
+                         
+                         <p>
+                            Shop groceries based on your selected recipe! Check your inventory and buy only what is needed saving money, time and no excess buy . You can use SmartPantry to scan hand written recipe notes or  import recipes from all over the web in just a few taps into your mobile phone, tablet or PC! Smart Pantry tracks your frequently shopped list to help you  order quickly. Checks the inventory based on your selected recipe and shows you the missing ingedients for you to order. 
+                         </p>
+                         <p>
+                           Use all of your favorite recipes to quickly generate grocery lists and meal plans for yourself or the entire family! Hubby on the way home from work and you didnt have time to tell him what to pickup? No problem, just setup sync on his device, and he can have the list of items in almost real time! Like sharing your recipes on Social Media? Smart Pantry allows you to quickly post your favorite recipes directly to your Facebook, Twitter or Pinterest accounts.
+                         </p>
+                         <p>
+                           No internet connection? No worries! FoodPlanner keeps your recipes local allowing you too freely use the app when connected or not!
+                         </p>
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+                <div class="carousel-item " data-interval="2000">
+                  <div class="container">
+                    <div class="row">
+                      <div class="carousel-img">
+                          <img  src="Final_Images/currentinventory.png" alt="Second slide">
+                      </div>
+                       <div class="carousel-text">
+                         <h1>TRY THE SMART-PANTRY</h1>
+                         <h4 class="carousal-h4">Inventory</h4>
+                         <p>
+                           Shows your grocery inventory you bought last time. Keeps track of your frequently bought grocery list. Get alters and notofications of grocery items expiry dates.
+                         </p>
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+                <div class="carousel-item "data-interval="2000">
+                  <div class="container">
+                    <div class="row">
+                      <div class="carousel-img">
+                             <img  src="Final_Images/recipe.png" alt="Third slide">
+                      </div>
+                       <div class="carousel-text">
+                         <h1>TRY THE SMART-PANTRY</h1>
+                          <h4 class="carousal-h4">Recipes</h4>
+                         <p>
+                           Store all your favorite recipes offline in one place! Using a huge selection of supported websites and blogs you can use SmartPantry or our new chrome extension to import recipes in just a few clicks! Add your own custom recipes, update and/or tweak imported recipes with your own ingredients, instructions, images and more! Create your own custom cookbooks from collections of recipes, and tag them with all your favorite keywords to make finding your recipes a snap!
+                         </p>
+                         <p>
+                           Recipe Feature Highlights
+                         </p>
+                          <p>
+                           <ul>
+                             <li>* Create Cookbooks</li>
+                              <li>* Edit/Modify/Update any imported recipes</li>
+                              <li>* Change/Update recipe images</li>
+                              <li>* Supports Cook Time, Prep Time and Oven temperature</li>
+                              <li>* Add notes to recipes</li>
+                              <li>* Add and search with multiple tags</li>
+                              <li>* Recipe Ratings</li>
+                              <li>* Sort by last used, rating, frequency and more!</li>
+                              <li>* Recipe Timers!</li>
+                              <li>* Share recipes via , Email, Facebook and Pinterest (coming soon)</li>
+                               </ul>
+                               </p>
+                              <p>
+                              No internet connection? No worries! FoodPlanner keeps your recipes local allowing you too freely use the app when connected or not!</p>                    
+                         
+                      </div>
+                    </div>
+                  </div>               
+                </div>
+                   <div class="carousel-item "data-interval="2000">
+                  <div class="container">
+                    <div class="row">
+                      <div class="carousel-img">
+                             <img  src="Final_Images/current-grocerylist.png" alt="Third slide">
+                      </div>
+                       <div class="carousel-text">
+                         <h1>TRY THE SMART-PANTRY</h1>
+                          <h4 class="carousal-h4">Grocery List</h4>
+                         <p>
+                            Never again will you have too struggle with what to get at the grocery store, picking up extra items, forgetting items etc! Use your recipes and meal plans to generate flawless grocery lists and sync it all to the cloud so you can share it with entire family! Here are just a few of the features currently in our grocery screen!
+                         </p>
+                         <p>
+                           <ul>
+                             <li>* Create multipe grocery lists</li>
+                              <li>* Create aisles and categories</li>
+                              <li>* Create a list of reusable items</li>
+                              <li>* Add directly to the manually</li>
+                              <li>* Add and store prices for items</li>
+                              <li>* User barcode scanner to scan items</li>
+                              <li>* Cloud sync all your groceries (Real Time cross off)</li>
+                              <li>* Share grocery lists with your entire family or friends</li>                             
+                             </ul>
+                         </p>
+                      </div>
+                    </div>
+                  </div>               
+                </div>
+              </div>
+            </div>
+        </div>
+  
+<!-- Footer -->
+<footer class="footer">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-md-4">
+<h4 class="content-title">
+<span>Smart Pantry Support</span>
+</h4> 
+
+<p>We try to provide our users with the best service we can. If you have any questions, ideas, comments or concerns or even just a good rant ,please feel free to contact our support team at <br>
+</p>
+<p></p>
+<p> support@smartpantryapp.com</p>
+</div> 
+
+
+<div class="col-md-4">
+
+<h4 class="content-title">
+<span>Stay Connected</span>
+</h4>
+
+<p>Get all of the latest updates, promotions and other special updates via Facebook, Twitter, Instagram </p>
+<!-- <p>&nbsp;</p> -->
+<!-- <br> -->
+
+<ul class="footer-social-link">
+<li>
+<a target="_blank" href="http://www.facebook.com/smartpantry" title="Facebook" data-placement="bottom">
+<img class="social-icon" src="images/facebook.png" width="35"alt="Facebook">
+</a>
+</li>
+<li>
+<a target="_blank" href="http://www.twitter.com/smartpantry" title="Twitter" data-placement="bottom">
+<img class="social-icon" src="images/twit.png" width="35" alt="Twitter">
+</a>
+</li>
+<li>
+<a target="_blank" href="https://instagram.com/smartpantry" title="Instagram" data-placement="bottom">
+<img class="social-icon" src="images/insta.png" width="30" alt="Instagram">
+</a>
+</li>
+</ul>
+
+</div> <!-- /.col -->
+
+
+<div class="col-md-4">
+
+<h4 class="content-title">
+<span>Stay Updated</span>
+</h4>
+
+<p>Join our newsletter to opt-in on special promos, discounts, tips and other exclusive offers. </p>
+<p>&nbsp;</p>
+<form method="post" action="//smartpantryapp.us3.list-manage.com/subscribe/post?u=e0ccbbd974b8ca10287ca384c&amp;id=07b560c164" class="form" target="_blank">
+
+<div class="form-group">
+<!-- <label>Email: <span class="required">*</span></label> -->
+<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">
+</div> <!-- /.form-group -->
+
+<div class="form-group">
+<input type="submit" class="btn-oval btn btn-primary" name="subscribe" value="Subscribe Me">
+</div> <!-- /.form-group -->
+
+</form>
+
+</div> <!-- /.col -->
+
+</div> <!-- /.row -->
+
+</div> <!-- /.container -->
+
+<footer class="copyright">
+  <div class="container">
+  
+  <div class="row">
+  
+  <div class="col-sm-12">
+  <p align="center">Copyright © 2020 smartpantryapp.com. All Rights Reseved - <a href="/site/Privacy_Tos_Eula">Terms of Service</a> - <a href="/site/Privacy_Tos_Eula">Privacy Policy</a> - <a href="/site/contact">Contact us</a></p>
+  </div> <!-- /.col -->
+  
+  </div> <!-- /.row -->
+  
+  </div>
+  </footer>
+
+    <script>src="js/index.js"</script>
+  </body>
+</html>
