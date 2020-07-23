@@ -23,7 +23,7 @@
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top ">
 			<a class="nav-brand logo">
 				<img src="images/logo.png" >
             
@@ -33,7 +33,7 @@
           </button>
           
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav nav-links" >
+          <ul class="navbar-nav nav-links mr-auto" >
             <li class= "nav-item">
               <a class="nav-link" href="#planning">PLANNING</a>
             </li>
@@ -54,31 +54,48 @@
         </nav>    
       </header>
       <div class="jumbotron">
-        <div class="row">
-        <div class="col-md-6">
-        <h1 class="display-4">The Ultimate Grocery Planner!</h1>
-        <p class="lead">Plan your grocery lists and check inventory smartly in just minutes!<br>
-           Get alerts/notifications on expiring items.<br>Save time and money using SmartPantry services !.</p>
-           <!-- <img src= "images/hero.png"> -->
-           </div>
-           <div class="col-md-6 heroImg">
-              <img src= "images/hero.png">
-             </div>
-            </div><!--row end-->
-        <hr class="my-4">
-        <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
-        <p class="lead">
-          <a class="btn-learn btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-          <a class=" btn-download btn btn-primary btn-lg" href="#" role="button">
-            <span class="app-store-button">
-              <i class="fa fa-apple button-icon" aria-hidden="true"></i>
-              <span>
-              <span class="clearfix small-btn-text ">Download on the</span> 
-              <span>APP Store</span>
-              </span>
-            </span>
-          </a>
-        </p>
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6">
+            <h1 class="display-4">The Ultimate Grocery Planner!</h1>
+            <p class="lead">Plan your grocery lists and check inventory smartly in just minutes!<br>
+               Get alerts/notifications on expiring items.<br>Save time and money using SmartPantry services !.</p>
+               <!-- Change -->
+               <div>
+               <p class="lead">
+                <a class="btn-learn btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                <a class=" btn-download btn btn-primary btn-lg" href="#" role="button">
+                  <span class="app-store-button">
+                    <i class="fa fa-apple button-icon" aria-hidden="true"></i>
+                    <span>
+                    <span class="clearfix small-btn-text ">Download on the</span> 
+                    <span>APP Store</span>
+                    </span>
+                  </span>
+                </a>
+              </p>
+            </div>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-6 heroImg">
+                  <img src= "images/hero.png">
+                 </div>
+                </div><!--row end-->
+            <!-- <hr class="my-4"> -->
+            <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
+            <!-- <p class="lead">
+              <a class="btn-learn btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+              <a class=" btn-download btn btn-primary btn-lg" href="#" role="button">
+                <span class="app-store-button">
+                  <i class="fa fa-apple button-icon" aria-hidden="true"></i>
+                  <span>
+                  <span class="clearfix small-btn-text ">Download on the</span> 
+                  <span>APP Store</span>
+                  </span>
+                </span>
+              </a>
+            </p> -->
+        </div>
+       
       </div>
       <!--Pantry-->
       <div class="container pantry">
@@ -122,13 +139,13 @@
         <div class="row carouselrow">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
-                <div class="carousel-item active" data-interval="2000">
+                <div class="carousel-item active" data-interval="4000">
                   <div class="container">
                     <div class="row">
-                      <div class="carousel-img">
+                      <div class="col-sm-12 col-md-4 carousel-img">
                           <img  src="Final_Images/samrtpantry.png" alt="First slide">
                       </div>
-                       <div class="carousel-text">
+                       <div class="col-sm-12 col-md-8 carousel-text">
                          <h1>TRY THE SMART-PANTRY</h1>
                          <h4 class="carousal-h4">Overview</h4>
                          
@@ -148,10 +165,10 @@
                 <div class="carousel-item " data-interval="2000">
                   <div class="container">
                     <div class="row">
-                      <div class="carousel-img">
+                      <div class="col-sm-12 col-md-4 carousel-img">
                           <img  src="Final_Images/currentinventory.png" alt="Second slide">
                       </div>
-                       <div class="carousel-text">
+                       <div class="col-sm-12 col-md-8 carousel-text ">
                          <h1>TRY THE SMART-PANTRY</h1>
                          <h4 class="carousal-h4">Inventory</h4>
                          <p>
@@ -161,13 +178,13 @@
                     </div>
                   </div>                  
                 </div>
-                <div class="carousel-item "data-interval="2000">
+                <div class="carousel-item "data-interval="4000">
                   <div class="container">
                     <div class="row">
-                      <div class="carousel-img">
+                      <div class="col-sm-12 col-md-4 carousel-img">
                              <img  src="Final_Images/recipe.png" alt="Third slide">
                       </div>
-                       <div class="carousel-text">
+                       <div class="col-sm-12 col-md-8 carousel-text">
                          <h1>TRY THE SMART-PANTRY</h1>
                           <h4 class="carousal-h4">Recipes</h4>
                          <p>
@@ -197,13 +214,13 @@
                     </div>
                   </div>               
                 </div>
-                   <div class="carousel-item "data-interval="2000">
+                   <div class="carousel-item "data-interval="4000">
                   <div class="container">
                     <div class="row">
-                      <div class="carousel-img">
+                      <div class="col-sm-12 col-md-4 carousel-img">
                              <img  src="Final_Images/current-grocerylist.png" alt="Third slide">
                       </div>
-                       <div class="carousel-text">
+                       <div class="col-sm-12 col-md-8 carousel-text">
                          <h1>TRY THE SMART-PANTRY</h1>
                           <h4 class="carousal-h4">Grocery List</h4>
                          <p>

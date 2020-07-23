@@ -22,15 +22,20 @@ align-content:center;
 font-weight:600px;
 padding-top:20px;
 margin-right:5%;
-margin-top:-10%;
+/* margin-top:-30%; */
 }
 .btn-download{
 align-content:center;
 margin-right:5%;
-margin-top:-10%;
+/* margin-top:-30%; */
 
 }
 
 .btn-oval {
 	border-radius: 24px;
+}
+.btn-primary:hover {
+  color: #fff; 
+  background-color: #FF7CCB; 
+  border-color: #000000;
 }

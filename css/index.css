@@ -4,18 +4,21 @@ html {
   .logo img{
     width:50px;
     margin-top:5px;
+    margin-left:5%;
   }
   .heroImg img{
-    margin-top: 10px;
-    margin-right: -20px;
-    width:100% ;
+    /* margin-top: 10px; */
+    /* margin-right: -20px; */
+    /* width:100% ; */
+    /* margin-left: -10%; */
+    width:90% ;
   }
   header{
     width: 100%;
     background-color: #30444E;
   }
   .nav-links{
-    margin-left:50px;
+    margin-left:5%;
     margin-right:auto;
     
   }
@@ -29,11 +32,11 @@ html {
   }
   .display-4{
     margin-top: 10%px;
-    margin-left:25%;
+    margin-left:12%;
   }
   .lead{
     margin-top: 5%;
-    margin-left:25%;
+    margin-left:12%;
   }
   .display-4, .lead{
     color:white;
@@ -73,7 +76,7 @@ html {
   margin:0;
   padding:0;
   margin-left:0rem;
-  width:120%
+  width:60%
 }
 .carousel-img{
   width:30%;
@@ -81,10 +84,10 @@ html {
   
 }
 .carousel-text{
-  width:70%;
+  width:100%;
   float:left;
   color:white;
-padding-left:10rem;
+  padding-left:0rem;
 }
 .carousal-h4{
    margin-top:10%; 
